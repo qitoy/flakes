@@ -1,0 +1,37 @@
+{
+    "hello": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "hello",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-jZkUKv2SV28wsM18tCqNxoCZmLxdYH2Idh9RLibH2yA=",
+            "type": "url",
+            "url": "mirror://gnu/hello/hello-2.12.1.tar.gz"
+        },
+        "version": "2.12.1"
+    },
+    "ssss": {
+        "cargoLocks": null,
+        "date": "2022-11-22",
+        "extract": null,
+        "name": "ssss",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "vm-xeck",
+            "repo": "ssss",
+            "rev": "484620eaa0826c545269e8d25c5762d97baf78df",
+            "sha256": "sha256-XOLEz8yFORJGKXj8sj2m0A5KgqXObQkfsMSq3kcl684=",
+            "type": "github"
+        },
+        "version": "484620eaa0826c545269e8d25c5762d97baf78df"
+    }
+}
