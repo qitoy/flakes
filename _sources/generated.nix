@@ -9,6 +9,18 @@
       sha256 = "sha256-jZkUKv2SV28wsM18tCqNxoCZmLxdYH2Idh9RLibH2yA=";
     };
   };
+  online-judge-verify-helper = {
+    pname = "online-judge-verify-helper";
+    version = "c42032627b21f4b1d45a8f42cb9d00dd0fa70668";
+    src = fetchFromGitHub {
+      owner = "online-judge-tools";
+      repo = "verification-helper";
+      rev = "c42032627b21f4b1d45a8f42cb9d00dd0fa70668";
+      fetchSubmodules = false;
+      sha256 = "sha256-Q7uI13kazajeYb3LRK7mMhx0V3hh7CVqnptmQksMLOA=";
+    };
+    date = "2023-12-09";
+  };
   ssss = {
     pname = "ssss";
     version = "484620eaa0826c545269e8d25c5762d97baf78df";

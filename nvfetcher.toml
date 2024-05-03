@@ -5,3 +5,7 @@ fetch.github = "vm-xeck/ssss"
 [hello]
 src.manual = "2.12.1"
 fetch.url = "mirror://gnu/hello/hello-2.12.1.tar.gz"
+
+[online-judge-verify-helper]
+src.git = "https://github.com/online-judge-tools/verification-helper.git"
+fetch.github = "online-judge-tools/verification-helper"

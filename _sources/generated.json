@@ -14,6 +14,26 @@
         },
         "version": "2.12.1"
     },
+    "online-judge-verify-helper": {
+        "cargoLocks": null,
+        "date": "2023-12-09",
+        "extract": null,
+        "name": "online-judge-verify-helper",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "online-judge-tools",
+            "repo": "verification-helper",
+            "rev": "c42032627b21f4b1d45a8f42cb9d00dd0fa70668",
+            "sha256": "sha256-Q7uI13kazajeYb3LRK7mMhx0V3hh7CVqnptmQksMLOA=",
+            "type": "github"
+        },
+        "version": "c42032627b21f4b1d45a8f42cb9d00dd0fa70668"
+    },
     "ssss": {
         "cargoLocks": null,
         "date": "2022-11-22",
