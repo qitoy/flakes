@@ -33,4 +33,12 @@
     };
     date = "2022-11-22";
   };
+  vivaldi-ffmpeg-codecs = {
+    pname = "vivaldi-ffmpeg-codecs";
+    version = "124.0.6367.118";
+    src = fetchurl {
+      url = "https://api.snapcraft.io/api/v1/snaps/download/XKEcBqPM06H1Z7zGOdG5fbICuf8NWK5R_2843.snap";
+      sha256 = "sha256-n/dvqr5jmOlyGNHVpwQD1LTR+UqpZJBRzcB1F8nosSM=";
+    };
+  };
 }
