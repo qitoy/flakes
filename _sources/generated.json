@@ -1,19 +1,4 @@
 {
-    "hello": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "hello",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-jZkUKv2SV28wsM18tCqNxoCZmLxdYH2Idh9RLibH2yA=",
-            "type": "url",
-            "url": "mirror://gnu/hello/hello-2.12.1.tar.gz"
-        },
-        "version": "2.12.1"
-    },
     "moralerspace-nf": {
         "cargoLocks": null,
         "date": null,
