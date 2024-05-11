@@ -1,4 +1,4 @@
-{ stdenv, source, ncurses, ... }: stdenv.mkDerivation {
+{ stdenv, source, ncurses, lib }: stdenv.mkDerivation {
   inherit (source) pname version src;
 
   nativeBuildInputs = [ ncurses ];
@@ -13,4 +13,11 @@
   '';
 
   passthru = { runnable = true; };
+
+  meta = with lib; {
+    description = "Soreha So Screensaver";
+    homepage = "https://github.com/vm-xeck/ssss";
+    license = licenses.wtfpl;
+    platforms = platforms.all;
+  };
 }
