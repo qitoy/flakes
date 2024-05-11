@@ -14,6 +14,21 @@
         },
         "version": "2.12.1"
     },
+    "moralerspace-nf": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "moralerspace-nf",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-XAwgq9OctPCdoWzDD110yOlf/IaiG6650mcqr98gl6Q=",
+            "type": "url",
+            "url": "https://github.com/yuru7/moralerspace/releases/download/v1.0.0/MoralerspaceNF_v1.0.0.zip"
+        },
+        "version": "1.0.0"
+    },
     "online-judge-verify-helper": {
         "cargoLocks": null,
         "date": "2023-12-09",

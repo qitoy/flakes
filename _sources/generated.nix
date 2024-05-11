@@ -9,6 +9,14 @@
       sha256 = "sha256-jZkUKv2SV28wsM18tCqNxoCZmLxdYH2Idh9RLibH2yA=";
     };
   };
+  moralerspace-nf = {
+    pname = "moralerspace-nf";
+    version = "1.0.0";
+    src = fetchurl {
+      url = "https://github.com/yuru7/moralerspace/releases/download/v1.0.0/MoralerspaceNF_v1.0.0.zip";
+      sha256 = "sha256-XAwgq9OctPCdoWzDD110yOlf/IaiG6650mcqr98gl6Q=";
+    };
+  };
   online-judge-verify-helper = {
     pname = "online-judge-verify-helper";
     version = "c42032627b21f4b1d45a8f42cb9d00dd0fa70668";

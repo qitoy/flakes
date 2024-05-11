@@ -13,3 +13,8 @@ fetch.github = "online-judge-tools/verification-helper"
 [vivaldi-ffmpeg-codecs]
 src.manual = "124.0.6367.118"
 fetch.url = "https://api.snapcraft.io/api/v1/snaps/download/XKEcBqPM06H1Z7zGOdG5fbICuf8NWK5R_2843.snap"
+
+[moralerspace-nf]
+src.github = "yuru7/moralerspace"
+src.prefix = "v"
+fetch.url = "https://github.com/yuru7/moralerspace/releases/download/v$ver/MoralerspaceNF_v$ver.zip"
