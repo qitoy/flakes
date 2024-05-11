@@ -1,5 +1,5 @@
-{ mySource, pythonPackages, ... }: pythonPackages.buildPythonApplication {
-  inherit (mySource) pname version src;
+{ source, pythonPackages, ... }: pythonPackages.buildPythonApplication {
+  inherit (source) pname version src;
 
   propagatedBuildInputs = with pythonPackages; [
     colorlog

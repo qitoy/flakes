@@ -1,5 +1,5 @@
-{ stdenv, mySource, unzip }: stdenv.mkDerivation rec{
-  inherit (mySource) pname version src;
+{ stdenv, source, unzip }: stdenv.mkDerivation rec{
+  inherit (source) pname version src;
 
   nativeBuildInputs = [ unzip ];
 

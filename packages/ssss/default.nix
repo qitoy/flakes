@@ -1,5 +1,5 @@
-{ stdenv, mySource, ncurses, ... }: stdenv.mkDerivation {
-  inherit (mySource) pname version src;
+{ stdenv, source, ncurses, ... }: stdenv.mkDerivation {
+  inherit (source) pname version src;
 
   nativeBuildInputs = [ ncurses ];
 

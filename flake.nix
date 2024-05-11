@@ -35,7 +35,7 @@
             pkgs = import (pkgDir + "/${name}");
             override = builtins.intersectAttrs (builtins.functionArgs pkgs) {
               pythonPackages = final.python3.pkgs;
-              mySource = sources.${name};
+              source = sources.${name};
             };
           in
           final.callPackage pkgs override

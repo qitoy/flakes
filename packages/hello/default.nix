@@ -1,6 +1,6 @@
-{ stdenv, lib, mySource, ... }:
+{ stdenv, lib, source, ... }:
 
 stdenv.mkDerivation rec {
-  inherit (mySource) pname version src;
+  inherit (source) pname version src;
   passthru = { runnable = true; };
 }

@@ -1,5 +1,5 @@
-{ stdenv, mySource, squashfsTools, lib }: stdenv.mkDerivation {
-  inherit (mySource) pname version src;
+{ stdenv, source, squashfsTools, lib }: stdenv.mkDerivation {
+  inherit (source) pname version src;
 
   buildInputs = [ squashfsTools ];
 
