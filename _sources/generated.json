@@ -1,4 +1,54 @@
 {
+    "cargo-compete": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./cargo-compete-v0.10.7/Cargo.lock",
+                {}
+            ]
+        },
+        "date": null,
+        "extract": null,
+        "name": "cargo-compete",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "qryxip",
+            "repo": "cargo-compete",
+            "rev": "v0.10.7",
+            "sha256": "sha256-qlRVHSUVOqdTx4H3pE19Fy634742veTisHm6IqfKBUQ=",
+            "type": "github"
+        },
+        "version": "v0.10.7"
+    },
+    "cargo-equip": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./cargo-equip-v0.20.1/Cargo.lock",
+                {}
+            ]
+        },
+        "date": null,
+        "extract": null,
+        "name": "cargo-equip",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "qryxip",
+            "repo": "cargo-equip",
+            "rev": "v0.20.1",
+            "sha256": "sha256-yxRiG96jC7zdlMQpL0B9Mle2kD1TOhqTZzMX3I8IE9I=",
+            "type": "github"
+        },
+        "version": "v0.20.1"
+    },
     "moralerspace-nf": {
         "cargoLocks": null,
         "date": null,
@@ -8,11 +58,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-XAwgq9OctPCdoWzDD110yOlf/IaiG6650mcqr98gl6Q=",
+            "sha256": "sha256-BtvY8r3VJZ0H5D6f1WAfamL4CmmBPKsYAcnp3Emccc4=",
             "type": "url",
-            "url": "https://github.com/yuru7/moralerspace/releases/download/v1.0.0/MoralerspaceNF_v1.0.0.zip"
+            "url": "https://github.com/yuru7/moralerspace/releases/download/v1.0.2/MoralerspaceNF_v1.0.2.zip"
         },
-        "version": "1.0.0"
+        "version": "1.0.2"
     },
     "online-judge-verify-helper": {
         "cargoLocks": null,

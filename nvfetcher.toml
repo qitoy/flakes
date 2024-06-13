@@ -10,3 +10,13 @@ fetch.github = "online-judge-tools/verification-helper"
 src.github = "yuru7/moralerspace"
 src.prefix = "v"
 fetch.url = "https://github.com/yuru7/moralerspace/releases/download/v$ver/MoralerspaceNF_v$ver.zip"
+
+[cargo-compete]
+src.github = "qryxip/cargo-compete"
+fetch.github = "qryxip/cargo-compete"
+cargo_locks = ["Cargo.lock"]
+
+[cargo-equip]
+src.github = "qryxip/cargo-equip"
+fetch.github = "qryxip/cargo-equip"
+cargo_locks = ["Cargo.lock"]
