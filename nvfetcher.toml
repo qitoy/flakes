@@ -7,8 +7,8 @@ src.git = "https://github.com/online-judge-tools/verification-helper.git"
 fetch.github = "online-judge-tools/verification-helper"
 
 [vivaldi-ffmpeg-codecs]
-src.manual = "124.0.6367.118"
-fetch.url = "https://api.snapcraft.io/api/v1/snaps/download/XKEcBqPM06H1Z7zGOdG5fbICuf8NWK5R_2843.snap"
+src.manual = "126.0.6478.126"
+fetch.url = "https://api.snapcraft.io/api/v1/snaps/download/XKEcBqPM06H1Z7zGOdG5fbICuf8NWK5R_2899.snap"
 
 [moralerspace-nf]
 src.github = "yuru7/moralerspace"
