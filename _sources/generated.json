@@ -49,6 +49,21 @@
         },
         "version": "v0.20.1"
     },
+    "janome": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "janome",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-zko+16RjXC+AE5Y5Mn1bHgOBhYrXSjxKYejMg/ggQA4=",
+            "type": "url",
+            "url": "https://pypi.org/packages/source/J/Janome/Janome-0.5.0.tar.gz"
+        },
+        "version": "0.5.0"
+    },
     "moralerspace-nf": {
         "cargoLocks": null,
         "date": null,

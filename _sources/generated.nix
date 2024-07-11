@@ -35,6 +35,14 @@
       };
     };
   };
+  janome = {
+    pname = "janome";
+    version = "0.5.0";
+    src = fetchurl {
+      url = "https://pypi.org/packages/source/J/Janome/Janome-0.5.0.tar.gz";
+      sha256 = "sha256-zko+16RjXC+AE5Y5Mn1bHgOBhYrXSjxKYejMg/ggQA4=";
+    };
+  };
   moralerspace-nf = {
     pname = "moralerspace-nf";
     version = "1.0.2";

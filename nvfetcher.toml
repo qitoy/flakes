@@ -24,3 +24,7 @@ cargo_locks = ["Cargo.lock"]
 src.github = "qryxip/cargo-equip"
 fetch.github = "qryxip/cargo-equip"
 cargo_locks = ["Cargo.lock"]
+
+[janome]
+src.pypi = "Janome"
+fetch.pypi = "Janome"
