@@ -35,6 +35,23 @@
       };
     };
   };
+  cargo-executable-payload = {
+    pname = "cargo-executable-payload";
+    version = "v0.2.0";
+    src = fetchFromGitHub {
+      owner = "qryxip";
+      repo = "cargo-executable-payload";
+      rev = "v0.2.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-eb/5K65Tavtm2w6QqAM5hSSrLL5LiCcDGw3u+HwRiMs=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./cargo-executable-payload-v0.2.0/Cargo.lock;
+      outputHashes = {
+        
+      };
+    };
+  };
   janome = {
     pname = "janome";
     version = "0.5.0";

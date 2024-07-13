@@ -49,6 +49,31 @@
         },
         "version": "v0.20.1"
     },
+    "cargo-executable-payload": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./cargo-executable-payload-v0.2.0/Cargo.lock",
+                {}
+            ]
+        },
+        "date": null,
+        "extract": null,
+        "name": "cargo-executable-payload",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "qryxip",
+            "repo": "cargo-executable-payload",
+            "rev": "v0.2.0",
+            "sha256": "sha256-eb/5K65Tavtm2w6QqAM5hSSrLL5LiCcDGw3u+HwRiMs=",
+            "type": "github"
+        },
+        "version": "v0.2.0"
+    },
     "janome": {
         "cargoLocks": null,
         "date": null,
